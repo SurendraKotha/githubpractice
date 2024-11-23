@@ -1,0 +1,82 @@
+---------------------------------------------------GitHub practice-------------------------------------
+-------------------------common-----------------------
+Git
+It is a version control system (VCS)
+Repository- it is nothing but project folder
+
+Elements of Git
+1)Remote repository
+2)Local repository
+3)Staging area
+4)Working directory
+
+-------------------------windows-----------------------
+-git init // to initialize a git 
+-git status //to check status
+-git status
+
+-Untracked section is called working directory
+Example :
+-code.py, example.txt, example1.txt are in working directory
+-Send files to the remote repository first they should have to save in local repository
+
+-Send files to the remote repository then you will use “git push” command
+-Send files to the local repository then you will use “git commit” command 
+-you can’t commit single file so that’s why staging area comes to place  
+-if you want to send files to the staging area then you will use “git add” command
+
+-git add code.py
+-git add example.txt
+-git status
+-git commit -m “code and example”
+-git remote add origin https://github.com/SurendraKotha/git-tuts.git
+-git push -u origin master
+-git remote -v //list all remotes and urls
+
+Branches     main/master
+			|
+			Code -deploy/redeploy
+
+-branches are nothing but copies of main/master branch 
+-we will push our changes into our branch and then we will create  a PR to merge our changes to the main branch 
+-“checkout” – command is used to jump between the branches 
+-working directoy is common there is no connection between working directory and branch 
+
+
+GIT COMMANDS
+Working directory-stagging area-commit-push=git pull
+-git 
+-git --version //displays the version
+-git --help //displays commands 
+-git config //displays all commands 
+-git config -l //shows all credentials
+
+//to clear the screen 
+-cls //to clear the screen
+
+//adding configuration
+-git config --global user.name <user-name>
+-git config --global user.email <user-email>
+//-git config –global color.ui  auto
+
+//editing configuration 
+-git config --edit --global 
+-insert
+-esc
+-shift :
+-wq
+-enter
+
+
+//initializing git 
+-cd <folder_name>  // moving to working directory
+-git init  	  // initializing git
+-dir /a		 //displays all files in a folder including . files
+-rmdir /s /q .git //removes .git initialization
+-dir /a /q    // displays all files in a folder with date and time it including .files 
+
+
+
+
+
+
