@@ -80,3 +80,5 @@ Working directory-stagging area-commit-push=git pull
 
 
 
+
+-------------------------mac-----------------------
